@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.BackGround{
+    background-image: linear-gradient(to right ,rgb(219, 220, 220),rgb(219, 220, 220) 50% ,rgb(113, 193, 240) 50%,rgb(113, 193, 240) );
+    width: 100vw;
+    height: 100vmax;
+    min-width: 320px;
+
+}
+
+.profile-card{
+    background-image: linear-gradient(to right ,rgb(219, 220, 220),rgb(219, 220, 220) 50% ,rgb(113, 193, 240) 50%,rgb(113, 193, 240) );
+    width: min(60rem,90vw);
+    max-width: 90vw;
+    max-height: 80vh;
+    margin: 5vw ;
+}
+
+.photo-div{
+    background-image: url("Assets/Balaji-photo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+
+}
+
+.profile-photo{
+    object-fit: fill;
+
+}
+
+.balaji-dasari{
+    text-align: center;
+    /* letter-spacing: 1px; */
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    background-image: linear-gradient(to top right ,rgb(0, 45, 246) , rgb(12, 13, 12));
+    /* background-image: url("Assets/Balaji-photo.jpg"); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+title{
+    font-family: 'Great Vibes', cursive;
+
+}
+
+a{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
