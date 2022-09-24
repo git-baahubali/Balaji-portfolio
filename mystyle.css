@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+:root{
+    --primary: rgb(113, 193, 240);
+    --secondary: rgb(219, 220, 220);
+}
+
+.one-em{
+    font-size: 1em;
+}
+.two-em{
+    font-size: 2em;
+}
+.threee-em{
+    font-size: 3em;
+}
+.four-em{
+    font-size: 4em;
+}
 .BackGround{
-    background-image: linear-gradient(to right ,rgb(219, 220, 220),rgb(219, 220, 220) 50% ,rgb(113, 193, 240) 50%,rgb(113, 193, 240) );
+    background-image: linear-gradient(to right ,var(--secondary),var(--secondary) 50% ,var(--primary) 50%,var(--primary) );
     width: 100vw;
     height: 100vmax;
     min-width: 320px;
@@ -25,6 +42,7 @@
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+    font-size: 1vw;
 
 }
 
@@ -55,5 +73,20 @@ a{
     gap: 0.5rem;
     align-items: center;
     justify-content: space-between;
+    padding: 01rem 1rem ;
+    border-radius: 50%;
+    transition: 01s ease-in;
+
     
+}
+
+a:hover{
+    /* background-color: var(--primary); */
+    background-image: radial-gradient(var(--secondary),var(--primary));
+    /* background-image: radial-gradient(var(--primary),var(--secondary)); */
+    transition: 0.2s ease-in;
+    
+}
+.test-baahubali-1{
+    font-size: 2vw;
 }
