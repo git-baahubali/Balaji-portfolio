@@ -6,6 +6,10 @@
     --secondary: rgb(219, 220, 220);
 }
 
+.aref-font{
+    font-family: 'Aref Ruqaa Ink', serif;
+
+}
 .one-em{
     font-size: min(1.5vw , 1.5rem);
 }
@@ -200,5 +204,32 @@ title{
     font-family: 'Aref Ruqaa Ink', serif;
     /* background-image: linear-gradient(to right top , rgb(253, 130, 130),rgb(217, 246, 120),rgb(117, 247, 212),rgb(254, 116, 247)); */
     background-image: linear-gradient(to top left ,var(--secondary),var(--secondary) 50% ,var(--primary) 50%,var(--primary) );
+
+}
+
+/* ---------Project container */
+
+.image-container>img{
+    
+    transition: 0.5s ease-in;
+}
+.image-container:hover img{
+    transform: scale(1.05);
+}
+
+.project-container a{
+    background-image: transparent;
+    /* background-color: transparent; */
+    transition: 1s ease-in;
+    
+    /* background- */
+    transition: background-image 1s;
+
+}
+.project-container a:hover{
+    background-color: red;
+    
+
+    
 
 }
