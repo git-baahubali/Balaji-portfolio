@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Great+Vibes&display=swap');
 
 :root{
     --primary: rgb(113, 193, 240);
@@ -6,10 +7,10 @@
 }
 
 .one-em{
-    font-size: 1em;
+    font-size: min(1.5vw , 1.5rem);
 }
 .two-em{
-    font-size: 2em;
+    font-size: min(3vw,3rem);
 }
 .threee-em{
     font-size: 3em;
@@ -19,17 +20,17 @@
 }
 .BackGround{
     background-image: linear-gradient(to right ,var(--secondary),var(--secondary) 50% ,var(--primary) 50%,var(--primary) );
-    width: 100vw;
-    height: 100vmax;
+    /* width: 100vw;
+    height: 100vmax; */
     min-width: 320px;
 
 }
 
 .profile-card{
-    background-image: linear-gradient(to right ,rgb(219, 220, 220),rgb(219, 220, 220) 50% ,rgb(113, 193, 240) 50%,rgb(113, 193, 240) );
+    background-image: linear-gradient(to right ,var(--secondary),var(--secondary) 50% ,var(--primary) 50%,var(--primary) );
     width: min(60rem,90vw);
     max-width: 90vw;
-    max-height: 80vh;
+    height: 600px;
     margin: 5vw ;
 }
 
@@ -67,7 +68,7 @@ title{
 
 }
 
-a{
+.social-link{
     /* background-color: aqua; */
     display: flex;
     gap: 0.5rem;
@@ -75,18 +76,108 @@ a{
     justify-content: space-between;
     padding: 01rem 1rem ;
     border-radius: 50%;
-    transition: 01s ease-in;
+    transition: 00.5s ease-in;
 
     
 }
 
-a:hover{
-    /* background-color: var(--primary); */
+.social-link:hover{
     background-image: radial-gradient(var(--secondary),var(--primary));
-    /* background-image: radial-gradient(var(--primary),var(--secondary)); */
     transition: 0.2s ease-in;
     
 }
+.social-link:active{
+    background-image: radial-gradient(var(--secondary),var(--primary));
+    transition: 0.2s ease-in;
+    
+}
+
 .test-baahubali-1{
     font-size: 2vw;
 }
+
+.nav-link{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 700;
+    background-image: radial-gradient(var(--secondary),var(--primary));
+
+    /* background-color: var(--primary); */
+    padding: 0.25rem 1rem;
+    margin: 0 4px;
+    border-radius: 0.15rem;
+    transition: 0.5s ease-in;
+}
+
+.nav-link:hover{
+    border-radius: 1rem;
+    background-image: radial-gradient(white,white);
+    transition: 0.5s ease;
+
+}
+
+.Projects{
+    animation: changeBG 5s infinite  linear;
+    /* transition: 0.5s ease; */
+
+}
+
+/* @keyframes changeBG{
+
+
+
+    0%{
+    background-image: radial-gradient(rgb(250, 152, 152),rgb(75, 63, 246));
+        
+    }
+    20%{
+    background-image: linear-gradient(to top right ,rgb(75, 63, 245),rgb(127, 251, 111));
+        
+    }
+    40%{
+    background-image: radial-gradient(rgb(127, 251, 11),rgb(107, 231, 242));
+        
+    }
+    60%{
+    background-image: linear-gradient(to left top,rgb(129, 246, 234),rgb(243, 44, 44));
+        
+    }
+    80%{
+    background-image: radial-gradient(rgb(243, 44, 44),rgb(250, 152, 152));
+        
+    }
+    100%{
+    background-image: linear-gradient(to left top,rgb(250, 152, 152),rgb(75, 63, 246));
+        
+    }
+} */
+@keyframes changeBG{
+    0%{
+        background-image: linear-gradient(to top right , rgb(247, 124, 102),rgb(223, 247, 102),rgb(104, 244, 146),rgb(102, 235, 247));
+        transition: ease;
+    }
+    25%{
+        background-image: linear-gradient(to top right , rgb(223, 247, 102),rgb(104, 244, 146),rgb(102, 235, 247),rgb(247, 124, 102));
+        transition: ease;
+
+    }
+    50%{
+        background-image: linear-gradient(to top right , rgb(104, 244, 146),rgb(102, 235, 247),rgb(247, 124, 102),rgb(223, 247, 102));
+        transition: ease;
+
+    }
+    75%{
+        background-image: linear-gradient(to top right , rgb(102, 235, 247),rgb(247, 124, 102),rgb(223, 247, 102),rgb(104, 244, 146));
+        transition: ease;
+
+    }
+    100%{
+        background-image: linear-gradient(to top right , rgb(247, 124, 102),rgb(223, 247, 102),rgb(104, 244, 146),rgb(102, 235, 247));
+        transition: ease;
+
+    }
+    
+    
+}
+
+
+

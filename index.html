@@ -12,41 +12,59 @@
     <title>Balaji Portfolio</title>
 </head>
 <body>
-    <div class="flex justify-center BackGround
-                bg-slate-400 ">
-            <div class="profile-card  flex
+<div class="flex flex-col justify-center  items-center BackGround
+                 ">
+                <nav class="flex justify-between px-8 mt-4  w-full">
+                    <h1 class="balaji-dasari text-left">Balaji Dasari</h1>
+                    
+                    
+                    <div class="flex justify-end items-center">
+                        <div class=" hidden sm:flex">
+                            <a href="#" class="nav-link Projects">Projects</a>
+                            <a href="#" class="nav-link ">Connect</a>
+                            <a href="#" class="nav-link ">Home</a>
+                            <a href="#" class="nav-link ">About</a>
+                            
+                        </div>
+                        <i class="fa-light fa-bars sm:hidden"></i>
+                    </div>
+                </nav>
+
+                 <!-- ---- Welcome card ----- -->
+                 <!-- Code for Desktop  -->
+            <div class="profile-card  hidden sm:flex 
                         rounded-3xl shadow-2xl shadow-slate-700">
                 <div class="left w-1/2 
                             flex flex-col justify-center sm:justify-center items-center
                             gap-6">
-                    <h1 class="text-center">Hi 👋, Welcome to by Portlio</h1>
+                    <h1 class="text-center two-em px-4">Hi 👋, Welcome to my Website</h1>
 
-                    <p class="text-center">I can build you beautiful , responsive websites optimized for both 💻 web and mobile 📱  </p>
+                    <p class="text-center one-em px-4">I can build you beautiful , responsive ,user friendly and feature rich apps or websites optimized for both 💻 Laptop and mobile 📱  </p>
                     <!-- ------- Socials------ -->
                     <h1 class="font-bold underline underline-offset-8"> Check out my Social</h1>
                     
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto" 
+                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto social-link" 
                         href="https://github.com/git-baahubali" target="_blank" >
                             <i class="fa-brands fa-github icons scale-150 
                                        "> </i>
                             <p class="icon-name  sm:hidden">git-baahubali</p>
                         </a>
 
-                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto" 
+                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto social-link" 
                         href="https://www.linkedin.com/in/balaji-dasari-2a88b5155/" target="_blank" >
                             <i class="fa-brands fa-linkedin icons scale-150"></i>
                             <p class="icon-name m-0 sm:hidden">Linked <i class="fa-brands fa-linkedin mx-0"></i> </p>
                         </a>
 
-                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto" 
+                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto social-link" 
                         href="https://www.instagram.com/balaji__dasari/" target="_blank" >
                             <i class="fa-brands fa-instagram icons scale-150"></i>
                             <p class="icon-name sm:hidden">@balaji__dasari</p>
 
                         </a>
 
-                        <a class="min-w-40 sm:min-w-8 mx-2" 
+                        <a class="min-w-40 sm:min-w-8 mx-2 social-link" 
                         href="https://www.facebook.com/balaji.dasari.90/" target="_blank" >
                             <i class="fa-brands fa-facebook icons scale-150"></i>
                             <p class="icon-name sm:hidden">balaji.dasari.90</p>
@@ -67,16 +85,84 @@
                     <h1 class="balaji-dasari text-white font-bold">
                         Balaji Dasari
                     </h1>
-                    <h1 class="text-slate-900 text-center "
+                    <h1 class="text-slate-900 text-center one-em"
                     >React Js Front-End Development Engineer</h1>
                 </div>
 
             </div>
-    </div>
+            <!-- Code for Mobile -->
+            <div class="profile-card  flex flex-col items-center  sm:hidden 
+                        rounded-3xl shadow-2xl shadow-slate-700">
 
+                        <div class="right w-1/2
+                        flex flex-col justify-center sm:justify-center items-center gap-4">
+                <div class="photo-div  border-r-4">
+                    
+                    <!-- <img class="profile-photo"
+                    src="Assets/Balaji-photo.jpg" alt=""> -->
+                </div>
+                <h1 class="balaji-dasari text-white font-bold w-full">
+                    Balaji Dasari
+                </h1>
+                <h1 class="text-slate-900 text-center two-em mb-4"
+                >React Js Front-End Development Engineer</h1>
+                
+            </div>
+
+            <div class="left 
+                            flex flex-col justify-center sm:justify-center items-center
+                            gap-6">
+                    <h1 class="text-center two-em px-4">Hi 👋, Welcome to my Website</h1>
+
+                    <p class="text-center one-em px-4">I can build you beautiful , responsive ,user friendly and feature rich apps or websites optimized for both 💻 Laptop and mobile 📱  </p>
+                    <!-- ------- Socials------ -->
+                    <h1 class="font-bold underline underline-offset-8"> Check out my Social</h1>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto social-link" 
+                        href="https://github.com/git-baahubali" target="_blank" >
+                            <i class="fa-brands fa-github icons scale-150 
+                                       "> </i>
+                            <p class="icon-name  sm:hidden">git-baahubali</p>
+                        </a>
+
+                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto social-link" 
+                        href="https://www.linkedin.com/in/balaji-dasari-2a88b5155/" target="_blank" >
+                            <i class="fa-brands fa-linkedin icons scale-150"></i>
+                            <p class="icon-name m-0 sm:hidden">Linked <i class="fa-brands fa-linkedin mx-0"></i> </p>
+                        </a>
+
+                        <a class="flex sm:min-w-8 mx-2 sm:mx-auto social-link" 
+                        href="https://www.instagram.com/balaji__dasari/" target="_blank" >
+                            <i class="fa-brands fa-instagram icons scale-150"></i>
+                            <p class="icon-name sm:hidden">@balaji__dasari</p>
+
+                        </a>
+
+                        <a class="min-w-40 sm:min-w-8 mx-2 social-link" 
+                        href="https://www.facebook.com/balaji.dasari.90/" target="_blank" >
+                            <i class="fa-brands fa-facebook icons scale-150"></i>
+                            <p class="icon-name sm:hidden">balaji.dasari.90</p>
+
+                        </a>
+                        
+
+                    </div>
+                </div>
+                <!-- ------- -->
+                
+
+            </div>
+
+
+    <div class="Projects-div">
+        <div class="flex">
+            <h1 class="text-right w-1/2">Projects</h1>
+            <p class="text-left w-1/2">Checkout my Work</p></div>
+    </div>
+    
+
+</div>  <!--Bacground-->
  
-
-
-    </div>
 </body>
 </html>
