@@ -221,15 +221,12 @@ title{
     background-image: transparent;
     /* background-color: transparent; */
     transition: 1s ease-in;
-    
+    /* background-color: red; */
     /* background- */
     transition: background-image 1s;
 
 }
 .project-container a:hover{
-    background-color: red;
-    
-
-    
+      
 
 }
