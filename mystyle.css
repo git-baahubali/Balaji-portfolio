@@ -38,6 +38,11 @@
     margin: 5vw ;
 }
 
+@media only screen and (max-width:640px){
+    .profile-card{
+        background-image: linear-gradient(to right ,var(--primary),var(--secondary) );
+    }
+}
 
 
 .photo-div{
